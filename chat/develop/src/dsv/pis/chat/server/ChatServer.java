@@ -56,7 +56,7 @@ public class ChatServer
   protected LinkedList msgQueue = new LinkedList ();
 
 
-  protected ArrayList<String> users;
+  protected ArrayList<String> users = new ArrayList<>();
 
   /**
    * The notification objects of registered clients are held in this
